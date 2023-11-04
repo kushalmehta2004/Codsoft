@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background.png);
+    background-size: 100% 100%;
+    background-position: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+.one {
+    background-image: none;
+}
+
+.navbar {
+    height: 8%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+    margin-top: 0.7%;
+}
+
+.menu-icon {
+    width: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    transition: all 0.3s;
+}
+
+.navbar ul li:hover {
+    transform: scale(1.2);
+    color: #ff5733;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+
+}
+
+h5 {
+    font-size: larger;
+    padding-bottom: 1rem;
+}
+
+p {
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+
+.card {
+    width: 30rem;
+    height: 18rem;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 1rem 5rem;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+
+}
+
+.card1 {
+    background-image: url(pic-1.png);
+
+}
+
+
+
+.card3 {
+    background-image: url(pic-3.png);
+}
+
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#prodhead {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 40px;
+}
+
+.prod {
+    height: 5%;
+    border-bottom: 3px solid rgb(9, 127, 101);
+    text-align: center;
+    font-size: 1.5rem;
+    vertical-align: bottom;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(12, 73, 78);
+}
+
+.prodopt {
+    vertical-align: baseline;
+    font-size: 1rem;
+}
+
+.product {
+    margin-top: 2rem;
+    height: 65%;
+}
+
+.first {
+    height: 100%;
+    width: 100%;
+    margin: 0 1rem 0 0;
+
+
+}
+
+.second {
+    height: 100%;
+    width: 100%;
+    margin: 0 1rem 0 1rem;
+}
+
+.third {
+    height: 100%;
+    width: 100%;
+    margin: 0 0 0 1rem;
+}
+
+.col img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#divide {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: larger;
+    border-bottom: 1px solid #ccd3d9;
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+}
+
+#divide:last-child {
+    border-bottom: none;
+}
+
+#main {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    overflow: hidden;
+    box-shadow: 0 0 10px 5px #dadde3;
+
+}
+
+#photo {
+    transition: transform 0.5s;
+
+}
+
+#photo:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: rgb(130, 34, 34);
+}
+
+.foot {
+    background-image: none;
+    height: 5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-image: none;
+}
+
+footer nav ul {
+    display: flex;
+}
+
+footer nav ul li {
+    margin-right: 20px;
+}
+
+footer nav ul li:last-child {
+    margin-right: 0;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+#btnicon {
+    text-decoration: none;
+    color: white;
+    margin-right: 2rem;
+}
